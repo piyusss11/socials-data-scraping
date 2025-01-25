@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/youtube.ts","./src/routes/comment.ts"],"version":"5.7.2"}
+{"root":["./src/index.ts","./src/youtube.ts","./src/routes/channel.ts","./src/routes/comment.ts"],"version":"5.7.2"}
