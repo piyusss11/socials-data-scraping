@@ -30,7 +30,7 @@ export async function getVideoComments(videoId: string) {
 
 export async function getChannelId(videoId: string) {
   try {
-    const fullUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=AIzaSyB7C9YX6hz80gZgLEh5mSp5b4Og1W0oDjM`;
+    const fullUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=`;
     const url = `https://www.googleapis.com/youtube/v3/videos`;
     const response = await axios.get(url, {
       params: {
@@ -58,7 +58,7 @@ export async function getChannelId(videoId: string) {
 
 export async function getChannelDetails(channelId: string) {
   try {
-    const fullUrl = `https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UC4VQ9IlUFTspf6FV-MdKFvA&key=AIzaSyB7C9YX6hz80gZgLEh5mSp5b4Og1W0oDjM`;
+    const fullUrl = `https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UC4VQ9IlUFTspf6FV-MdKFvA&key=`;
     const url = "https://www.googleapis.com/youtube/v3/channels";
     const response = await axios.get(url, {
       params: {
