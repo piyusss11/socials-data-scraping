@@ -1,0 +1,1 @@
+This is a data scraping project currently uses any youtube video link to get the video and channel details along with the comments. 

@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@font-face {
+    font-family:"emporia" ;
+    src: url("/font/emporia-roman.otf");
+}
